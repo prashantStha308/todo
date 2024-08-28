@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --yellowText: #FED36A;
+    --inputBackground: #455A64;
+
+    --scrollbarLight: #455A64;
+    --scrollbarDark: #212832;
+}
+
+*{
+    font-family: Inter,sans-serif;
+}
+
+.mainScreen{
+    background-color: #212832;
+    box-sizing: border-box;
+    max-width: 320px;
+    max-height: 480px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 15px;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.mainScreen::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.mainScreen {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.todoInputs,.TodoApp{
+    min-width: 100%;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.625rem;
+}
+.yellowText{
+    color: var(--yellowText);
+}
+
+.header{
+    text-align: center;
+}
+
+.userInput{
+    background-color: var(--inputBackground);
+    border: none;
+    margin: 10px 0 10px 0;
+    padding: 10px 20px;
+    outline: none;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 3px;
+}
+
+.taskLable{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.todoInputs{
+    display: grid;
+    gap: 15px;
+}
+
+.todoDetail{
+    height: 50px;
+}
+
+.sectionTitle{
+    font-size: 0.95rem;
+    font-family: 400;
+}
+
+.team{
+    margin: 0 0 20px 0;
+}
+
+.footerButtons{
+    margin: 20px 0;
+    display: grid;
+    gap: 10px;
+}

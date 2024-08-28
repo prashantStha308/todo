@@ -1,0 +1,16 @@
+.crossButton{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.05rem;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 15px;
+    width: 15px;
+
+    background-image: url(../../../assets/closesquare.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}

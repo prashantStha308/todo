@@ -1,0 +1,35 @@
+.timeContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+}
+
+.timeElement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+    background-color: #455A64;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.timeTile{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+}
+
+.timeTile::-webkit-calendar-picker-indicator {
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FED36A;
+}

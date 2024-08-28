@@ -1,0 +1,28 @@
+.buttonContainer{
+    background-color: #FED36A;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addButton{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    background-image: url(../../../assets/addsquare.png);
+    background-repeat: no-repeat;
+}

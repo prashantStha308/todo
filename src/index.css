@@ -1,0 +1,20 @@
+:root{
+    --darkBodyColor: #0d1117;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 100svh;
+    width: 100svh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkBodyColor);
+}

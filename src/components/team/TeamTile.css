@@ -1,0 +1,27 @@
+.tileContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 100%;
+}
+
+.teamMember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115px;
+    height: 35px;
+    background-color: #455A64;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.memberName{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.memberImg{
+    width: 20px;
+    border-radius: 100%;
+}
